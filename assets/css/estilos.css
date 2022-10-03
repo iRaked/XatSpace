@@ -1,0 +1,44 @@
+.{
+    margin: 0;
+    padding: : 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    heigth: auto;
+    position: relative;
+}
+video{
+    width: 100%;
+    heigth: 100%;
+    overflow: hidden;
+    opacity: 0.6;
+}
+.absolute{
+    width: 100%;
+    heigth: 100%;
+    top: 0;
+    rigth: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    z-index: 100;
+    color: background: rgba(0, 0, 0, 0.575);
+    margin-bottom: 30px;
+    
+}
+h1::after{
+    display: block;
+    width: 30%;
+    heigth: 10px;
+    content: "";
+    margin: auto;
+    background: white;
+}
+body {background: url('https://i.ibb.co/C0BFQJv/BGStars.gif')}*{text-align:center}*{cursor:url('https://i.postimg.cc/zBZrYYqg/Cursor-3D.png') ,auto}*{text-decoration:none}*{font-size:20px}*{font-family:Century Gothic, sans-serif}*{color:#666666}*{text-shadow:0px 1px 2px #a5a5a5}*,a[href]{color:#ffffff}html{background:5157fc}html{background-size: 100%}#xatstymedia{background:none}span:hover{opacity:1}.xatstynavlink a{background-color:##a5a5a5}*{transition:all 1s ease}#xatstyheader{height:40px}#xatstyheader,td[bgcolor]{background:000000}#xatstyheader,td[bgcolor]{position:absolute}#xatstyheader{top:0}td[bgcolor]{bottom:0}td[bgcolor]{right:0}td[bgcolor]{padding-left:15px}td[bgcolor]{padding-top:15px}#xatstyheader{border-radius:0 0 15px 0}td[bgcolor]{border-radius:32px 0 0 0}#xatstyinfo,#xatstyabout0,#xatstysidead,#xatstywhatpoll,hr{display:none}*{transhition:all 0.3s ease}img{opacity:.8}img:hover{opacity:.9}img:hover{ -webkit-transform: rotate(360deg)}img:hover{-webkit-filter: blur(1px)};}
