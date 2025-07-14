@@ -1,0 +1,9 @@
+body {
+      background-image: url("https://i.ibb.co/mFGCRdbF/Background-Xat-Space-Karime-GFX.gif");
+      background-size: cover;
+          /* Para ajustar la imagen al tamaño de la ventana del navegador */
+    }
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    }

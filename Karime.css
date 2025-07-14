@@ -1,0 +1,85 @@
+.toggle-play,
+.toggle-play i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-play {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 12000;
+  border: none;
+  outline: none;
+  background: var(--border);
+  color: var(--light);
+  box-shadow: 0 0 0 5px #F781F3, 0 0 30px rgba(0, 0, 0, .2);
+  transition: .2s;
+}
+
+.toggle-play:hover {
+  color: var(--shadow);
+  box-shadow: 0 0 0 10px #8A0886, 0 0 30px rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
+
+.toggle-play i {
+  font-size: 24px;
+  color: white;
+}
+.fa {
+  font-size: 24px;
+}
+
+.fa-music {
+  color: red;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #000;
+}
+
+.text-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pixie {
+  z-index:10;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.HCJ { 
+   position: absolute; 
+   top: 300px; 
+   left: 400px;
+   color: red;
+   height: 250px;
+   width: 700px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+}
+body {background: url('')}*{text-align:center}*{cursor:url('https://i.ibb.co/TMwyFGC/Cursor-Pink-FX.png') ,auto}*{text-decoration:none}*{font-size:20px}*{font-family:Century Gothic, sans-serif}*{color:#666666}*{text-shadow:0px 1px 2px #a5a5a5}*,a[href]{color:#ffffff}html{background:7f3e95}html{background-size: 100%}#xatstymedia{background:none}span:hover{opacity:1}.xatstynavlink a{background-color:#a5a5a5}*{transition:all 1s ease}#xatstyheader{height:40px}#xatstyheader,td[bgcolor]{background:000000}#xatstyheader,td[bgcolor]{position:absolute}#xatstyheader{top:0}td[bgcolor]{bottom:0}td[bgcolor]{right:0}td[bgcolor]{padding-left:15px}td[bgcolor]{padding-top:15px}#xatstyheader{border-radius:0 0 15px 0}td[bgcolor]{border-radius:32px 0 0 0}#xatstyinfo,#xatstyabout0,#xatstysidead,#xatstywhatpoll,hr{display:none}*{transhition:all 0.3s ease}
+
+img{opacity:.9}img:hover{opacity:.5}img:hover{ -webkit-transform: rotate(360deg)}img:hover{-webkit-filter: blur(1px)};}
+@media screan and(max-width: 800px){
+    h1{
+        font-size: 50px;
+    }
