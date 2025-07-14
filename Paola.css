@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.8)), url(https://i.loli.net/2019/11/03/RtVq2wxQYySDb8L.jpg);
+  background-size: cover;
+}
+
+p {
+  margin: 0em 5em 4em 5em;
+}
+
+h2, p {
+  text-align: left;
+  line-height: 0.4;
+  font-family: Lora, serif;
+  justify-content: center;
+  padding-left: 60px;
+}
+
+h3, p {
+  line-height: 0.4;
+  font-family: Lora, serif;
+  margin-top: 10px;
+  padding-left: 60px;
+}
+
+.glowIn {
+  color: white;
+}
+.glowIn span {
+  animation: glow-in 0.8s both;
+}
+
+@keyframes glow-in {
+  from {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+    text-shadow: 0 0 25px white;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
