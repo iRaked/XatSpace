@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" type="image/x-icon" href="assets/SG.ico" />
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cazadora</title>
-        <link rel="styleSheet" href="Cazadora.css">
-        <script src="functions.js"></script>
-    </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cazadora</title>
+  <link rel="icon" type="image/x-icon" href="assets/SG.ico" />
+  <link rel="stylesheet" href="Cazadora.css">
+
+  <!-- BLOQUEO DE CLICK DERECHO Y TECLADO -->
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.body.addEventListener('contextmenu', function (e) {
+      // Verifica si el clic fue dentro del iframe
+      const iframe = document.querySelector('iframe');
+      if (iframe && iframe.contains(e.target)) {
+        return; // Permite el clic derecho dentro del iframe
+      }
+      e.preventDefault(); // Bloquea el clic derecho fuera del iframe
+    });
+
+    document.body.addEventListener('keydown', function (e) {
+      e.preventDefault(); // Bloquea teclas globales si es necesario
+    });
+  });
+</script>
+</head>
 <body>
 <div id="particle-container">
 	<div class="particle"></div>
