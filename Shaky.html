@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Raketti Art</title>
-  <link rel="stylesheet" href="./Shaky.css">
-
-</head>
+    <head>
+        <link rel="icon" type="image/x-icon" href="assets/SG.ico" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta property="wb:webmaster" content="edcf77ed05a8765f" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <!-- BLOCK RIGHT CLICK -->
+        <script type="text/javascript">
+            document.onkeydown = function(){return false};
+            document.oncontextmenu = function(){return false}
+        </script>
+        <title>Shaky</title>
+        <link rel="stylesheet" href="./Shaky.css">
+        <script src="//cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+        <script src="//glenthemes.github.io/-music-/glenplayer01.js"></script>
+        <link href="//glenthemes.github.io/-music-/glenplayer01.css" rel="stylesheet">
+    </head>
 <body>
-<!-- partial:index.partial.html -->
-<script src="//cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
-                <script src="//glenthemes.github.io/-music-/glenplayer01.js"></script>
-                <link href="//glenthemes.github.io/-music-/glenplayer01.css" rel="stylesheet">
-            
-                <style element="glenplayer01">
-                     :root {
-                        --MusicPlayer-Distance-From-Bottom: 30px;
-                        --MusicPlayer-Frame-Thickness: 12px;
-                        --MusicPlayer-Frame-Color: #250f12;
-                        --MusicPlayer-Frame-Transparency: 40%;
-                        --MusicPlayer-Text-Background: #f7f5f6;
-                        --MusicPlayer-Text-Padding: 12px;
-                        --MusicPlayer-Text-Align: right;
-                        --MusicPlayer-Text-TOP-Size: 10px;
-                        --MusicPlayer-Text-TOP-Color: #250f12;
-                        --MusicPlayer-Text-BOTTOM-Size: 10px;
-                        --MusicPlayer-Text-BOTTOM-Color: #250f12;
-                        --MusicPlayer-Circle-Size: 60px;
-                        --MusicPlayer-Circle-Background: #f7f5f6;
-                        --MusicPlayer-PlayButton-Size: 10px;
-                        --MusicPlayer-PlayButton-Color: #250f12;
-                        --MusicPlayer-Bar-Thickness: 2px;
-                        --MusicPlayer-Bar-Spacing: 2px;
-                        --MusicPlayer-Bar-Color: #250f12;
-                        --MusicPlayer-SlideIn-Speed: 0.69s;
-                        --MusicPlayer-SlideOut-Speed: 1s;
-                    }
-                </style>
-            
-                <div glenplayer01="" style="margin-left: -86.4062px; visibility: visible; opacity: 1;">
-                    <div class="fryingpan"></div>
-                    <div class="cereal">
-                        <div class="gouache">
-                            <div class="musictext">
-                                <div top-text="">Ozuna </div>
-                                <div bottom-text="">Corazón de seda</div>
-                            </div>
-                        </div>
-            
-            
-                        <div class="circ">
-                            <div class="macaroni"></div>
-                            <div class="cheese">
-                                <!-- <div class="bartender">
-                                    <div class="vodka"></div>
-                                    <div class="vodka"></div>
-                                    <div class="vodka"></div>
-                                    <div class="vodka"></div>
-                                    <div class="vodka"></div>
-                                </div> -->
-                            </div>
-                        </div><audio id="music-id" src="assets/Ozuna.MP3"></audio>
-                    </div>
-                </div>
 
-  <section class="imgheader">
+    <!-- REPRODUCTOR PINK -->
+<style element="glenplayer01">
+  :root {
+    /* 🌸 Posicionamiento */
+    --MusicPlayer-Distance-From-Bottom: 30px;
+
+    /* 🎀 Marco del reproductor */
+    --MusicPlayer-Frame-Thickness: 12px;
+    --MusicPlayer-Frame-Color: #C71585; /* Deep pink brillante */
+    --MusicPlayer-Frame-Transparency: 65%;
+
+    /* 🩰 Fondo del texto */
+    --MusicPlayer-Text-Background: #ffe4f2; /* Rosa claro pastel */
+    --MusicPlayer-Text-Padding: 12px;
+    --MusicPlayer-Text-Align: center;
+
+    /* 💬 Estilo del texto superior/inferior */
+    --MusicPlayer-Text-TOP-Size: 11px;
+    --MusicPlayer-Text-TOP-Color: #B40486;
+    --MusicPlayer-Text-BOTTOM-Size: 11px;
+    --MusicPlayer-Text-BOTTOM-Color: #B40486;
+
+    /* 🍥 Círculo central (play/pausa) */
+    --MusicPlayer-Circle-Size: 60px;
+    --MusicPlayer-Circle-Background: radial-gradient(circle, #f8c8dc, #f5a9d0);
+
+    /* ▶️ Botón de reproducción */
+    --MusicPlayer-PlayButton-Size: 12px;
+    --MusicPlayer-PlayButton-Color: white;
+
+    /* 📶 Barra de audio */
+    --MusicPlayer-Bar-Thickness: 2px;
+    --MusicPlayer-Bar-Spacing: 2px;
+    --MusicPlayer-Bar-Color: #DF01D7; /* Rosa eléctrico */
+
+    /* 🎬 Animaciones */
+    --MusicPlayer-SlideIn-Speed: 0.69s;
+    --MusicPlayer-SlideOut-Speed: 1s;
+  }
+</style>
+    <div glenplayer01="" style="margin-left: -86.4062px; visibility: visible; opacity: 1;">
+    <div class="fryingpan"></div>
+        <div class="cereal">
+        <div class="gouache">
+        <div class="musictext">
+        <div top-text="">Ozuna </div>
+        <div bottom-text="">Corazón de seda</div>
+        </div>
+        </div>
+        <div class="circ">
+        <div class="macaroni"></div>
+        <div class="cheese"></div>
+        </div>
+        <audio id="music-id" src="assets/Ozuna.MP3"></audio>
+        </div>
+    </div>
+
+ <section class="imgheader">
      <div class="nomedoforum"></div>
    
 
@@ -72,16 +86,17 @@
             <div class="entire-content">
                 <div class="content-carrousel">
                    
-                    <figure class="shadow"><a href="https://youtu.be/V4vLmCDyweE?si=0okNYdX6H4YRBAWE"><img src="https://i.ibb.co/n7BcMsK/Photo-Phone-FX2.png"/></figure>
+                    <figure class="shadow"><a href="https://youtu.be/V4vLmCDyweE?si=0okNYdX6H4YRBAWE"><img src="https://i.ibb.co/n7BcMsK/Photo-Phone-FX2.png"/>
                     
-                    <figure class="shadow"><a href="https://xat.me/CorazonDeSedaTuyo"><img src="https://i.ibb.co/Pz8CRdJ/Photo-Phone-FX1.png"/></figure>  
+                    <figure class="shadow"><a href="https://xat.me/CorazonDeSedaTuyo"><img src="https://i.ibb.co/Pz8CRdJ/Photo-Phone-FX1.png"/>
 
-                    <figure class="shadow"><a href="https://xat.me/CorazonDeSedaTuyo"><img src="https://i.ibb.co/WfyXyqh/Photo-Phone-FX3.png"/></figure>  
+                    <figure class="shadow"><a href="https://xat.me/CorazonDeSedaTuyo"><img src="https://i.ibb.co/WfyXyqh/Photo-Phone-FX3.png"/>  
 
-                    <figure class="shadow"><a href="https://xat.me/CorazonDeSedaTuyo"><img src="https://i.ibb.co/G7mXp1r/Photo-Phone-FX4.png"/></figure>  
+                    <figure class="shadow"><a href="https://xat.me/CorazonDeSedaTuyo"><img src="https://i.ibb.co/G7mXp1r/Photo-Phone-FX4.png"/>  
 
-                    <figure class="shadow"><a href="https://xat.me/CorazonDeSedaTuyo"><img src="https://i.ibb.co/k4PFPS2/Photo-Phone-FX5.png"/></figure>
+                    <figure class="shadow"><a href="https://xat.me/CorazonDeSedaTuyo"><img src="https://i.ibb.co/k4PFPS2/Photo-Phone-FX5.png"/>
                 </div>
             </div>
 </section>
 </body>
+</html>
