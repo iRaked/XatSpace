@@ -1,7 +1,7 @@
 # Xat Space
 
 **Autor:** iRaked  
-**Fecha de inicio:** [2025]  
+**Fecha de inicio:** [2020]  
 **Estado:** Activo y en evolución  
 **Licencia:** [Apache 2.0]
 
